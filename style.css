@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background_logo {
+    width: auto;
+    height: 100px;
+    background-color: rgb(43, 146, 249);
+}
+
+.logo_booleaner {
+    width: 50px;
+    height: auto;
+    float: left;
+}
+
+.logo_pattern {
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.text_grey, .text_blue, .text_data {
+    margin-left: 10px;
+}
+
+.text_grey {
+    color: grey;
+}
+
+.text_blue {
+    color: rgb(43, 146, 249);
+}
+
+.text_data {
+    color: grey;
+    font-size: 12px;
+}
