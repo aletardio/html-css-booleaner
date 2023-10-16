@@ -11,7 +11,9 @@
 }
 
 .image-pattern {
-    background-image: url('../html-css-booleaner/img/pattern.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: left;
 }
 
 h1 {
@@ -37,19 +39,34 @@ h1 {
 }
 
 .container {
+    display: flex;
     width: auto;
     height: 600px;
-    /* background-color: red; */
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 .image-1 {
-    width: auto;
-    height: 650px;
-    margin-top: 20px;
-    margin-left: 10px;
+max-width: 100%;
+float: left;
 }
 
 .image-2 {
-    width: auto;
-    height: 650px;
+max-width: 100%;
+margin-left: 10px;
+}
+
+.text-image-1 {
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.text-image-2 {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.body-text-yellow {
+    background-color: yellow;
 }
