@@ -70,3 +70,11 @@ margin-left: 10px;
 .body-text-yellow {
     background-color: yellow;
 }
+
+.items{
+    margin-top: 25px;
+}
+
+li {
+    margin-left: 15px;
+}
