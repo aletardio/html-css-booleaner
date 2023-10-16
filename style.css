@@ -10,15 +10,8 @@
     background-color: rgb(43, 146, 249);
 }
 
-.logo_booleaner {
-    width: 50px;
-    height: auto;
-    float: left;
-}
-
-.logo_pattern {
-    width: auto;
-    height: auto;
+.image-pattern {
+    background-image: url('../html-css-booleaner/img/pattern.png');
 }
 
 h1 {
@@ -41,4 +34,22 @@ h1 {
 .text_data {
     color: grey;
     font-size: 12px;
+}
+
+.container {
+    width: auto;
+    height: 600px;
+    /* background-color: red; */
+}
+
+.image-1 {
+    width: auto;
+    height: 650px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.image-2 {
+    width: auto;
+    height: 650px;
 }
